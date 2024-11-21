@@ -19,22 +19,47 @@
 // }
 
 //2. Else if 
+ /*import java.util.*;
+ public class Conditions {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int button = sc.nextInt();
+
+        if (button == 1){
+            System.out.println("Namaste!");
+        }
+        else if (button == 2){
+            System.out.println("Hello");
+        }
+        else if (button == 3){
+            System.out.println("Bonjour");
+        }
+    }
+ }*/
+
+ //3.Switch statement
  import java.util.*;
  public class Conditions {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        int button = sc.nextInt();
 
-        if (a == b){
-            System.out.println("Both numbers are equal");
+        switch (button) {
+            case 1:
+                System.out.println("Namaste!");
+                break;
+            case 2:
+                System.out.println("Hello");
+                break;
+            case 3:
+                System.out.println("Bonjour");
+                break;
+            default:
+                System.out.println("Invalid button");
         }
-        else if (a > b){
-            System.out.println("A is greater than B");
-        }
-        else {
-            System.out.println("B is greater than A");
-        }
+
+
+        
     }
  }
 
