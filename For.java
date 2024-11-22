@@ -21,7 +21,7 @@
 // }
 
 //1C.for each loop
-public class Loops {
+public class For {
     public static void main(String[] args) {
         String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
         for (String i : cars) {
