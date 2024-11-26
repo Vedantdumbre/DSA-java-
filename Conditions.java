@@ -58,7 +58,7 @@
                 System.out.println("Invalid button");
         }
 
-
+        sc.close();
         
     }
  }
