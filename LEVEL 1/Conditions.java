@@ -1,5 +1,5 @@
 
-//1. IF condition
+//1. IF-else condition
 // import java.util.*;
 
 // public class Conditions {
