@@ -1,6 +1,7 @@
 //java me jab bhi agar-magar me baate karni hoti hai tab hum if/if-else/else-if ka use karte hai 
 
-
+//1A. If statement
+// Java program to illustrate If statement
 
 
 //1B. IF-else condition
@@ -42,41 +43,43 @@
  }*/
 
  //3.Switch statement
- public class Conditions {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int button = sc.nextInt();
+//  public class Conditions {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int button = sc.nextInt();
 
-        switch (button) {
-            case 1:
-                System.out.println("Namaste!");
-                break;
-            case 2:
-                System.out.println("Hello");
-                break;
-            case 3:
-                System.out.println("Bonjour");
-                break;
-            default:
-                System.out.println("Invalid button");
-        }
+//         switch (button) {
+//             case 1:
+//                 System.out.println("Namaste!");
+//                 break;
+//             case 2:
+//                 System.out.println("Hello");
+//                 break;
+//             case 3:
+//                 System.out.println("Bonjour");
+//                 break;
+//             default:
+//                 System.out.println("Invalid button");
+//         }
 
-        sc.close();
+//         sc.close();
         
+//     }
+//  }
+
+
+
+ public class Conditions {
+    public static void main(String args[])
+    {
+        int i = 10;
+   
+        // using if statement
+        if (i < 15)
+            System.out.println("10 is less than 15");
+   
+        System.out.println("Outside if-block");
+   
+        // both statements will be printed
     }
- }
-
- //1A. If statement
-// Java program to illustrate If statement
- public static void main(String args[])
- {
-     int i = 10;
-
-     // using if statement
-     if (i < 15)
-         System.out.println("10 is less than 15");
-
-     System.out.println("Outside if-block");
-
-     // both statements will be printed
  }
