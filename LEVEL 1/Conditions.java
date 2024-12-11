@@ -1,4 +1,4 @@
-
+//java me jab bhi agar-magar me baate karni hoti hai tab hum if/if-else/else-if ka use karte hai 
 //1. IF-else condition
 // import java.util.*;
 
