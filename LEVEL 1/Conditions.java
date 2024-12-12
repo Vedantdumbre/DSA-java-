@@ -32,7 +32,7 @@ public class Conditions {
 
 
 //2. Else if -> jab hume more than 2 conditions check karne ho tab hum else if use karte hai 
- import java.util.*;
+ /*import java.util.*;
  public class Conditions {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -48,11 +48,11 @@ public class Conditions {
             System.out.println("Bonjour");
         }
     }
- }
+ }*/
 
  //3.Switch statement -> switch statement hume ek code ke multiple posibilities dekhnekeliye use karte hai 
  // -> break statement ka use hum us statement se immidiate leave karne ke liye use karte hai  
-  public class Conditions {
+  /*public class Conditions {
      public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
          int button = sc.nextInt();
@@ -72,7 +72,7 @@ public class Conditions {
         sc.close();
         
      }
-  }
+  }*/
 
 
 
