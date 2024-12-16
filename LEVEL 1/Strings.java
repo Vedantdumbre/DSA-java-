@@ -11,6 +11,6 @@ public class Strings {
     System.out.println(txt1.toLowerCase());
     //to find the index of a specific character in the string based on indexing
     String txt2 = "Please locate where 'locate' occurs!";
-System.out.println(txt2.indexOf("Please"));
+System.out.println(txt2.indexOf("P lease"));
     }
 }
