@@ -74,5 +74,7 @@ public class Conditions {
      }
   }*/
 
+  //4. ternary Operator : short hand if-else
+  //variable = (condition) ? iftrue :  iffalse;
 
 
