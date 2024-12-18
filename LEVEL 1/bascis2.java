@@ -21,7 +21,7 @@
 // }
 
 //1C.for each loop -> for each loop ko enhanced for loop bhi bolte hai , jab bhi hume array ko for loop ki madat se chala hota hai tab hum for loop use karte hai
-public class For {
+public class bascis2 {
     public static void main(String[] args) {
         String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
         for (String i : cars) {
