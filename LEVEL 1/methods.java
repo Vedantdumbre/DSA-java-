@@ -10,12 +10,12 @@ public class methods {
 
     // when u have to insert a paarmeter in a method
     static void myMethod(String fname) {
-        System.out.println(fname + " Refsnes");
+        System.out.println(fname + " hello");
       }
     
       public static void main(String[] args) {
-        myMethod("Liam");
-        myMethod("Jenny");
-        myMethod("Anja");
+        myMethod("ved");
+        myMethod("atharva");
+        myMethod("adi");
       }
 }
