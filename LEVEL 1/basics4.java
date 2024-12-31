@@ -15,7 +15,7 @@
 
 
 //2. Continue statements in while loop
-public class BreakAndContinue {
+public class basics4 {
     public static void main(String[] args) {
         int i = 0;
         while (i < 10) {
