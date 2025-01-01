@@ -11,7 +11,7 @@
 
 //1B. do-while loop -> it is a exit control loop 
 
-public class While{
+public class basics6{
     public static void main(String[] args) {
         int i = 0;
         do {

@@ -11,7 +11,7 @@
 
 
 //1B.shortning/Narrowing casting -> must be done manully by placing the type in paranthesis ()
-public class Typecasting{
+public class basics{
 public static void main(String[] args) {
     double myDouble = 9.78d;
     int myInt = (int) myDouble; // Manual casting: double to int
