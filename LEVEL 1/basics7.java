@@ -1,4 +1,4 @@
-public class bas {
+public class basics7 {
     /*static void mymethod() {
         System.out.println("I just got executed!");
     }
