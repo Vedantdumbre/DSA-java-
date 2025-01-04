@@ -1,0 +1,1 @@
+have to do 30 mins of java learnig every day 
