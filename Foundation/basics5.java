@@ -25,11 +25,27 @@ public class basics5 {
             System.out.println(i);
         }*/
 //printing a triangle :
-        for (int i =4 ;i>=1;i--) {
-            for (int j = 1; j <= i; j++) {
+        /*for (int i =4 ;i>=1;i--) {
+            for (int j = 1; j <= i; j++) {  
                 System.out.print("*");
             }
-            System.out.println();
-        }
+            System.out.println();// here in this code we can see i, j. "i" looks after the number of lines of the pyramid and "j" looks after the number of "*" willbe printing in the code by doing (j<=i).Simple
+        } */
+//  printing the sum of first n even numbers using while loop :
+       /* int n = 7;
+        int sum= 0, count = 0, num = 2; 
+        while (count<n){
+           sum += num;
+           num += 2;
+           count++;}
+        System.out.println(" sumof first n numbers is "+ sum); */
+// Multiplication table of a number in reverse :
+        /*int n =10;
+        for (int i = 10; i >= 1 ; i--) {
+            System.out.println(n*i);
+        } */
+// repeating 5 in for and while loop :
+        
+        
     }
 }
