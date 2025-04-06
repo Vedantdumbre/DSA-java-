@@ -45,7 +45,22 @@ public class basics5 {
             System.out.println(n*i);
         } */
 // repeating 5 in for and while loop :
+        /*int n = 5;
+        int i = 0 ;
+        while (i<=10){
+            System.out.println(n);  // done easy 👍😎
+            i++;
+        } 
+        for (i = 0 ;i<=10;i++){
+            System.out.println(n); // done easy 👍😎
+        }*/
+// printing the sum of a multiplication table :
+        /*int n =2,sum=0;
+        for (int i = 1; i <= 10 ; i++) {
+            sum += n*i;
+            
+        }
+        System.out.println(sum); */
         
-        
-    }
+    } 
 }
