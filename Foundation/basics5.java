@@ -30,7 +30,7 @@ public class basics5 {
                 System.out.print("*");
             }
             System.out.println();// here in this code we can see i, j. "i" looks after the number of lines of the pyramid and "j" looks after the number of "*" willbe printing in the code by doing (j<=i).Simple
-        } */
+        }  */
 //  printing the sum of first n even numbers using while loop :
        /* int n = 7;
         int sum= 0, count = 0, num = 2; 
@@ -55,12 +55,30 @@ public class basics5 {
             System.out.println(n); // done easy 👍😎
         }*/
 // printing the sum of a multiplication table :
-        /*int n =2,sum=0;
+        /*int n =403,sum=0;
         for (int i = 1; i <= 10 ; i++) {
             sum += n*i;
             
         }
-        System.out.println(sum); */
-        
+        System.out.println(sum);  */
+// printing a solid rectangle pattern :
+         /*for (int i =1 ;i<=4;i++){
+            for(int j=1;j<=9;j++){
+                System.out.print("*");
+                }
+                System.out.println("*");
+            } */
+// pritning a hollow rectangle:
+            for (int i =1 ;i<=4;i++){
+            for(int j=1;j<=5;j++){
+                if (j==2 && j==3 && j==4) {
+                    continue;
+                }
+                System.out.print("*");
+                }
+                System.out.println("*");
+            }
+                
+         }   
     } 
-}
+
