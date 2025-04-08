@@ -69,16 +69,26 @@ public class basics5 {
                 System.out.println("*");
             } */
 // pritning a hollow rectangle:
-            for (int i =1 ;i<=4;i++){
-            for(int j=1;j<=5;j++){
-                if (j==2 && j==3 && j==4) {
-                    continue;
+            /*int rows = 4,cols =5;
+            for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= cols; j++) {
+                if (i == 1 || i == rows || j == 1 || j == cols) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
                 }
-                System.out.print("*");
-                }
-                System.out.println("*");
             }
-                
+            System.out.println();
+            }*/
+// printing a half pyramid:
+
+            for(int i =0;i <=4;i++ ){
+                for(int j =1;j<=i;j++){
+                    System.out.print("*");
+                }
+                System.out.println("*"); //easy 😎👍
+            }
+
          }   
     } 
 
