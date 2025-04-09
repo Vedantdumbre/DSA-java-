@@ -1,6 +1,5 @@
 // Array basics :
 
-import java.util.Arrays;
 
 public class basics6 {
     public static void main(String[] args) {
@@ -33,8 +32,7 @@ public class basics6 {
         System.out.println("Sum of array: " + sum); //sum of an array  */
 
 // program to fimd if an govem interger is present in an array or not :
-
-        int[] arr = {10,20,30,40};
+        /*int[] arr = {10,20,30,40};
         int check = 95;
         boolean found = false;
 
@@ -50,8 +48,40 @@ public class basics6 {
         } else {
             System.out.println("not cool");
 
-        }
-       
+        } */
+// calculate the average of an array using for-each loop:
 
+       /* int[] arr = {10,22,53,40};
+        float sum = 0; // float becuase a number coud be either whole or with decimals 
+        float avg = 0;
+
+        for (int i : arr) {
+            sum += i;
+            avg =sum / arr.length;
+        }
+        System.out.println(avg); //easy! 😎😎👍 */
+
+// program to add 2*3 matrices:
+        /*int[][] matrix = {{21,32,44},{12,23,34}};
+        int sum = 0;
+
+        for(int i = 0;i<matrix.length;i++){
+                for(int j =0;j<matrix[i].length;j++){
+                        sum += matrix[i][j];
+                    }
+                }
+                System.out.println(sum); */
+
+// maximum element in an array:
+ 
+        /*int[] arr = {10,20,30,40};
+        int max = arr[0];
+
+        for(int i = 1;i<arr.length;i++){
+                if (arr[i]>max) {
+                    max =arr[i];
+                }
+        }
+        System.out.println(max); //easy! 😎😎👍 */
     } 
 }
