@@ -23,14 +23,35 @@ public class basics6 {
                                                             [1]  |21  34  33 |  */
 
 // sum of an array :
-        float[] arr= {10.5f,20,30,40,50}; // float in an array is writtenin this way     
+        /*float[] arr= {10.5f,20,30,40,50}; // float in an array is writtenin this way     
         float sum = 0;
 
         for (float num : arr) {
             sum += num;
         }
 
-        System.out.println("Sum of array: " + sum); //sum of an array 
+        System.out.println("Sum of array: " + sum); //sum of an array  */
+
+// program to fimd if an govem interger is present in an array or not :
+
+        int[] arr = {10,20,30,40};
+        int check = 95;
+        boolean found = false;
+
+        for (int i : arr) {
+            if (i == check) {
+                found = true; // 1.here the array will be confirming if it has the "check" or not.
+                break;
+            }
+        }
+
+        if (found) { // 2.Here the code will be giving its results.
+            System.out.println("cool"); //great!😎
+        } else {
+            System.out.println("not cool");
+
+        }
+       
 
     } 
 }
