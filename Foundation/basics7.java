@@ -54,10 +54,10 @@ public class basics7 {
 
 // printing a pattern :
 
-    static void pyramid(){
-      for(int i=0;i <=5;i++ ){
-        for (int j=1;j>=i;j++){
-          System.out.print("* ");
+    /*static void pyramid(){
+      for(int i=5;i >=0;i-- ){
+        for (int j=1;j<=i;j++){
+          System.out.print("* "); //easy 😎😎
         } 
         
         System.out.println();
@@ -66,6 +66,31 @@ public class basics7 {
     }
     public static void main(String[] args) {
       pyramid();
+    } */
+
+// recursion program for finding the sum of n natural numbers:
+    /*public static void main(String[] args) {
+      int result = Sum(19);
+      System.out.println(result);
+    }
+
+    static int Sum(int n) {
+        if (n == 0) {
+            return 0;  // Base case
+        }
+        return n + Sum(n - 1);  // Recursive sum calculation
+    } */
+
+// repeat 4 using recursion:
+    public static void main(String[] args) {
+      digit(9);  // here i will be telling how many times the number must be played. 
+    }
+    static int digit(int n) {
+      if(n==0){
+        return 0;
+      }
+      System.out.println(4); //here i will be telling which number to print  
+      return digit(n-1);
     }
 
     }
