@@ -29,7 +29,7 @@ public class basics5 {
             for (int j = 1; j <= i; j++) {  
                 System.out.print("*");
             }
-            System.out.println();// here in this code we can see i, j. "i" looks after the number of lines of the pyramid and "j" looks after the number of "*" willbe printing in the code by doing (j<=i).Simple
+            System.out.println();// here in this code we can see i, j. "i" looks after the number of lines of the pyramid and "j" looks after the number of "*" will be printing in the code by doing (j<=i).Simple
         }  */
 //  printing the sum of first n even numbers using while loop :
        /* int n = 7;

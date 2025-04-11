@@ -37,6 +37,35 @@ public class basics7 {
             }
             return n * Factorial(n - 1);  // Recursive call
         }*/
-    
-    
+
+// multiplication table:  
+      
+    /*static void  table(int n){
+      for(int i=10;i>=1;i--){
+        System.out.println(n*i);
+        
+        }
+      }
+
+
+      public static void main(String[] args) {
+        table(4);
+      } */
+
+// printing a pattern :
+
+    static void pyramid(){
+      for(int i=0;i <=5;i++ ){
+        for (int j=1;j>=i;j++){
+          System.out.print("* ");
+        } 
+        
+        System.out.println();
+      }
+      
+    }
+    public static void main(String[] args) {
+      pyramid();
+    }
+
     }
