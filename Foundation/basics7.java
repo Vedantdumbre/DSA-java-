@@ -11,21 +11,32 @@ public class basics7 {
     }  */
 
 // A exmple of method overloading
-    /*static int plusMethod(int x, int y) {
-        return x + y;
-      }
-      
+    /*static int add1(int a,int b ){
+      return a+b;
+    }
 
-      static double plusMethod(double x, double y) {
-        return x + y;
-      }
+    static double add1(double a,double b ){
+      return a+b;
+    }
+    public static void main(String[] args) {
+      System.out.println(add1(1.22,20.34765 )); //easy😎😎
+      System.out.println(add1(1.2,20 ));
       
-      public static void main(String[] args) {
-        int myNum1 = plusMethod(8, 5);
-        double myNum2 = plusMethod(4.3, 6.26);
-        System.out.println("int: " + myNum1);
-        System.out.println("double: " + myNum2);
-      }*/
+    } */
 
-// 
-}
+// factorial of a nunber using recursion :
+
+        public static void main(String[] args) {
+            int result = Factorial(3);
+            System.out.println(result);
+        }
+    
+        public static int Factorial(int n) {
+            if (n == 0 || n == 1) {
+                return 1;  // Base case
+            }
+            return n * Factorial(n - 1);  // Recursive call
+        }
+    
+    
+    }
