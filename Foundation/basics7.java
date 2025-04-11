@@ -24,9 +24,9 @@ public class basics7 {
       
     } */
 
-// factorial of a nunber using recursion :
+// factorial of a nunber using "recursion" :
 
-        public static void main(String[] args) {
+        /*public static void main(String[] args) {
             int result = Factorial(3);
             System.out.println(result);
         }
@@ -36,7 +36,7 @@ public class basics7 {
                 return 1;  // Base case
             }
             return n * Factorial(n - 1);  // Recursive call
-        }
+        }*/
     
     
     }
