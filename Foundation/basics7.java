@@ -82,15 +82,54 @@ public class basics7 {
     } */
 
 // repeat 4 using recursion:
-    public static void main(String[] args) {
-      digit(9);  // here i will be telling how many times the number must be played. 
+    /*public static void main(String[] args) {
+      digit(4);
     }
-    static int digit(int n) {
+    static void digit(int n) {
       if(n==0){
-        return 0;
+        return ;
       }
-      System.out.println(4); //here i will be telling which number to print  
-      return digit(n-1);
+      System.out.println(4);
+      digit (n-1);
+    } */
+
+// average of numbers using functions :
+    /*public static void main(String[] args) {
+      float result =avg(10,20,30);
+      System.out.println(result);
+    }
+        
+    static  float avg(float a,float b,float c){  
+        return (a+b+c)/3;
+        } */
+
+//Above question =>Using an array :
+      /*static void  avg(){
+        float[] arr = {10.9f,23,34};
+        float sum = 0;
+        for(float num : arr){
+          sum += num;
+        }
+        System.out.println(sum);
+
+      }
+
+      public static void main(String[] args) {
+        avg();
+      } */
+
+// funtion for converting celcius to fahrenheit:
+
+    /*static void  converter(){
+      float celsius = 32;
+      float fahrenheit = (float) ((celsius * 9/5)+32);
+      System.out.println(" Temp in fahrenheit is "+fahrenheit); //easy😎😎👍
     }
 
+    public static void main(String[] args) {
+      converter();
+    } */
+
+
+    
     }
