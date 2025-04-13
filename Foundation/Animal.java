@@ -1,3 +1,5 @@
+// This is a file where i am writing all the important questions regarding "oop in java".
+
 //this is a n=basic code for testign my basic skills.
 /*public class Employee {
 
@@ -48,7 +50,7 @@
 } */
 
 // Program to repeat 3 
-public class Rectangle{
+/*public class Rectangle{
     
     void repeat(){
         for(int i=0;i<=5;i++){
@@ -61,4 +63,32 @@ public class Rectangle{
         Rectangle rect = new Rectangle();
         rect.repeat();
     }
+} */
+
+
+// Inheritance example :
+// correct way to run the command of inheritance is to type "java Dog".here Dog will be targette dand the required result will be appeared.
+public class Animal {
+    void sound(){
+        System.out.println("Animal makes sound");
+    }
 }
+
+class Dog extends Animal{
+    void sound(){
+        System.out.println("Dog barks");
+    }
+}
+class Cat extends Animal{
+    void sound(){
+        System.out.println("Cat meows");
+    }
+    
+    public static void main(String[] args) {
+        Cat myObj  = new Cat();
+        myObj.sound();
+    }
+} 
+
+
+
