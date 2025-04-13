@@ -68,7 +68,7 @@
 
 // Inheritance example :
 // correct way to run the command of inheritance is to type "java Dog".here Dog will be targette dand the required result will be appeared.
-public class Animal {
+/*public class Animal {
     void sound(){
         System.out.println("Animal makes sound");
     }
@@ -88,7 +88,36 @@ class Cat extends Animal{
         Cat myObj  = new Cat();
         myObj.sound();
     }
-} 
+} */
+
+// A detailed question for what i learned until now :
+public class Circle{
+
+    void shape(){
+        System.out.println("Circle has no edged");
+    }
+}
+class Cylinder extends Circle{
+    void AreaVolume(){
+        System.out.println("Area & Volume of Cylinder :");
+    }   
+    public int getValues(int area, int volume){
+        return area*volume;  // this the way of creatign a getter
+    }
+    public int setValues(int newarea, int newvolume){
+        return newarea*newvolume; // this the way of creatign a setter
+    }
+
+    public static void main(String[] args) {
+        Cylinder myObj = new Cylinder();
+        myObj.shape();
+        myObj.AreaVolume();
+        int result1=myObj.getValues(5,10); // call the getter in this way
+        int result2=myObj.setValues(8,8);  // call the setter in this way
+        System.out.println(result1);
+        System.out.println(result2);
+    }
+}
 
 
 
