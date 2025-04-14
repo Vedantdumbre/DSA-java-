@@ -91,7 +91,7 @@ class Cat extends Animal{
 } */
 
 // A detailed question for what i learned until now :
-public class Circle{
+/*public class Circle{
 
     void shape(){
         System.out.println("Circle has no edged");
@@ -116,8 +116,10 @@ class Cylinder extends Circle{
         int result2=myObj.setValues(8,8);  // call the setter in this way
         System.out.println(result1);
         System.out.println(result2);
-    }
-}
+    } 
+}*/
+
+
 
 
 
