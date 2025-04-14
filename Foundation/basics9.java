@@ -2,15 +2,15 @@
 
 
 // A simpe example of access modification.
-public class baiscs9 {
+/*public class baiscs9 {
     private int id;
     private String name;
     private int Salary;
 
-    public String getName(){
+    public String getName(){ // this is "getter". used for returning the values 
         return name ;
     }
-    public void setName(){
+    public void setName(){ // this is a "setter". used for set/updaating a value
         this. name="ved";
         this. id=07;
     }
@@ -26,7 +26,8 @@ public class baiscs9 {
     }
 
     public static void main(String[] args) {
-        baiscs9 obj = new baiscs9(10000);
+        baiscs9 obj = new baiscs9(10000); // how to "overload" a "main" constructor
         obj.setName("ved", 7);
     }
-}
+} */
+
