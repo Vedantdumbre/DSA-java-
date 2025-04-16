@@ -37,7 +37,39 @@
     }
 } */
 
-interface Animal {
+interface Animal {  //interface class
+    void jump(); // interface method (this mehtod cannot create objects of their own like "abstract")
+    void bite(); // interface method (this mehtod cannot create objects of their own like "abstract")
     
     
 }
+
+
+//eaxple of interface:
+public class Human implements Animal{
+    public void jump() {
+        System.out.println("Human is jumping");
+    }
+    public void bite() {
+        System.out.println("Human is bitting");
+    }
+    public void eat() {
+        System.out.println("Human is eat");
+    }
+    public void sleep() {
+        System.out.println("Human is sleeping");
+    }
+
+    public static void main(String[] args) {
+        Human human = new Human();
+        human.bite();
+        human.jump();
+        human.sleep();
+    }
+
+}
+    
+
+
+
+
