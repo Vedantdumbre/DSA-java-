@@ -1,4 +1,4 @@
-// Array basics :
+// Array basics :  more in w3schools and notes 
 
 
 public class basics6 {
