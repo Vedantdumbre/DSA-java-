@@ -21,14 +21,13 @@ public class Array1 {
 
     public static void main(String[] args) {
         int[] arr = {1,3,5,7,5};
-        System.out.print(reverse);
+        reverse(arr);
     }
 
-    static reverse(int[] arr){
-        for(int i=arr.length;i==0;i--){
-            
+    static void reverse(int[] arr){
+        for(int i=arr.length-1;i>=0;i--){
+            System.out.print(arr[i] + " ");
         }
-        return reverse;
     }
 
 }
