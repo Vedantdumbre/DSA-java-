@@ -151,14 +151,11 @@ public class basics5 {
         // a full pyramid :
         int n = 4;
         for (int a = 0; a <= n; a++) {
-            for (int i = 0; i < n - i - 1; i++) {
+            for (int space = 0; space < n - a; space++) {
                 System.out.print(" ");
             }
-            for (int i = 0; i < 2*n+1 ; i++) {
-                System.out.print(*);
-            }
-            for (int i = 0; i < n - i - 1; i++) {
-                System.out.print(" ");
+            for (int star = 0; star < 2 * a + 1; star++) {
+                System.out.print("*");
             }
             System.out.println();
         }
