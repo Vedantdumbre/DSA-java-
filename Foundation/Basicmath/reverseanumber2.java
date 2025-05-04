@@ -14,7 +14,7 @@ public class reverseanumber2 {
             return reverse;
         } */
 
-// LEETCODE problem:Here we are verversing with a constraint *Careful* 👍
+// LEETCODE problem:Here we are reversing with a constraint *Careful* 👍
 class Solution {
     
     public static void main(String[] args) {
