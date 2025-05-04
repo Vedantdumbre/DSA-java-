@@ -1,4 +1,4 @@
-public class reverseanumber {
+public class reverseanumber2 {
     
 //TUF Problem:
         /*public static void main(String[] args) {

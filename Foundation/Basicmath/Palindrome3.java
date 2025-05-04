@@ -1,4 +1,4 @@
-public class Palindrome {
+public class Palindrome3 {
     
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
@@ -6,12 +6,13 @@ public class Palindrome {
 
     public static boolean isPalindrome(int n) {
         int reverse =0;
-        while(n!=0){
+        int original = n;
+        while(n>0){
             int digit = n %10;
             reverse = reverse*10 + digit;
             n=n/10;
         }
-        return n==reverse;
+        return original==reverse;
     }
 
 
