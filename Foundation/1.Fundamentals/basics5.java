@@ -53,7 +53,7 @@ public class basics5 {
          * count++;}
          * System.out.println(" sumof first n numbers is "+ sum);
          */
-        // Multiplication table of a number in reverse :
+// Multiplication table of a number in reverse :
         /*
          * int n =11;
          * for (int i = 11; i >= 1 ; i--) {
@@ -72,7 +72,7 @@ public class basics5 {
          * System.out.println(n); // done easy 👍😎
          * }
          */
-        // printing the sum of a multiplication table :
+// printing the sum of a multiplication table :
         /*
          * int n =413,sum=1;
          * for (int i = 1; i <= 11 ; i++) {
@@ -81,7 +81,7 @@ public class basics5 {
          * }
          * System.out.println(sum);
          */
-        // printing a solid rectangle pattern :
+ // printing a solid rectangle pattern :
         /*
          * for (int i =1 ;i<=4;i++){
          * for(int j=1;j<=9;j++){
@@ -90,7 +90,7 @@ public class basics5 {
          * System.out.println("*");
          * }
          */
-        // pritning a hollow rectangle:
+// pritning a hollow rectangle:
         /*
          * int rows = 4,cols =5;
          * for (int i = 1; i <= rows; i++) {
@@ -104,7 +104,7 @@ public class basics5 {
          * System.out.println();
          * }
          */
-        // printing a half pyramid:
+// printing a half pyramid:
 
         /*
          * for(int i =1;i <=4;i++ ){
@@ -115,7 +115,7 @@ public class basics5 {
          * }
          */
 
-        // practice patterns here :😊😒
+// practice patterns here :😊😒
 
         // A numeric pyramid :
         /*
@@ -127,7 +127,7 @@ public class basics5 {
          * }
          */
 
-        // numeric inverse pyramid:
+// numeric inverse pyramid:
 
         /*
          * for (int i=5;i>=1;i--){
@@ -138,7 +138,7 @@ public class basics5 {
          * }
          */
 
-        // inverse of a pyramid :
+// inverse of a pyramid :
         /*
          * for (int i=5;i>=1;i--){
          * for(int j=1;j<=i;j++){
