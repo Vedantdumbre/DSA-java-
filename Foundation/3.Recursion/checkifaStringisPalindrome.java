@@ -1,13 +1,17 @@
 public class checkifaStringisPalindrome {
     public static void main(String[] args) {
-        palindromeCheck("naan")
+        System.out.println(palindromeCheck("naan"));
+        System.out.println(palindromeCheck("naanq "));
     }
 
-    public static boolean palindromeCheck(String s) {
-        if(s!=" ") return true;
-        
-       
+    static boolean palindromeCheck(String s) {
+        String rev = "";
+        for(int i = s.length() - 1; i >= 0; i--) {
+            rev += s.charAt(i);
+        }
+        return s.equals(rev);
     }
+}
 
      
-}
+
