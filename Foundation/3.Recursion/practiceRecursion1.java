@@ -39,4 +39,28 @@ public class practiceRecursion1 {
            if(N==0) return 0;
            return N + NnumbersSum(N-1);
         } */
+
+// Program to find recursive number :
+        /*public static void main(String[] args) {
+            System.out.println(Factorial(5));
+        }
+        public static int Factorial(int N) {
+            if(N==0) return 1;
+            return N * Factorial(N-1);
+        }  */
+
+//program  to reverse an array :
+        /*public static void main(String[] args) {
+            reverse(new int[]{1,2,3,4,6}, 5);
+
+        }
+        public static void reverse(int[] arr, int n) {
+            if (n == 0) return;
+            System.out.print(arr[n - 1] + " ");
+            reverse(arr, n - 1);
+        } */
+
+// program to check if a string is palindrome :
+        
+
 }
