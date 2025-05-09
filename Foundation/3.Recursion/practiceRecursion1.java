@@ -32,15 +32,15 @@ public class practiceRecursion1 {
         } */
 
 // Sum of N numbers :
-        /*public static void main(String[] args) {
+        /* public static void main(String[] args) {
            System.out.println(NnumbersSum(4));
         }
         public static int NnumbersSum(int N) {
            if(N==0) return 0;
            return N + NnumbersSum(N-1);
-        } */
+        } */ 
 
-// Program to find recursive number :
+// Program to find Factorial number :
         /*public static void main(String[] args) {
             System.out.println(Factorial(5));
         }
