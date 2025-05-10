@@ -47,7 +47,7 @@ public class practiceRecursion1 {
         public static int Factorial(int N) {
             if(N==0) return 1;
             return N * Factorial(N-1);
-        }  */
+        }  */ 
 
 //program  to reverse an array :
         /*public static void main(String[] args) {
@@ -59,8 +59,6 @@ public class practiceRecursion1 {
             System.out.print(arr[n - 1] + " ");
             reverse(arr, n - 1);
         } */
-
-// program to check if a string is palindrome :
         
 
 }
