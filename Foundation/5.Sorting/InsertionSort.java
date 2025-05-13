@@ -12,8 +12,6 @@ public class InsertionSort {
                 nums[j + 1] = nums[j];
                 j--;
             }
-
-            // Place the key at its correct position
             nums[j + 1] = key;
         }
 
