@@ -7,22 +7,22 @@ public class InsertionSort {
             int key = nums[i];
             int j = i - 1;
 
-            // Shift elements to right until correct position is found
+        
             while (j >= 0 && nums[j] > key) {
-                nums[j + 1] = nums[j];
+                nums[j + 1] = nums[j];  // yahipe sorting hoti hai 
                 j--;
             }
+
             nums[j + 1] = key;
         }
-
-        // Print sorted array
-        for (int num : nums) {
+        //pritning sorted array 
+        for (int num : nums) { // for-each loop used 
             System.out.print(num + " ");
         }
         System.out.println();
     }
 
     public static void main(String[] args) {
-        insertionsort(new int[]{2, 3, 5, 1, 9, 5, 2, 3});
+        insertionsort(new int[]{2, 12,324,23,32,3,43,39, 5, 2, 3});
     }
 }
