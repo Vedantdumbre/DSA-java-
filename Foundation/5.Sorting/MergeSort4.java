@@ -1,4 +1,4 @@
-public class MergeSort {
+public class MergeSort4 {
 
     public static void mergeSort(int[] arr, int low, int high) {
         if (low >= high) return;
