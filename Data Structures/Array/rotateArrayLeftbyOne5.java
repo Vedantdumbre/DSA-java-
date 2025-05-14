@@ -1,5 +1,5 @@
 public class rotateArrayLeftbyOne5 {
-      public static int rotateLeftByOne(int[] nums) {
+      public static void rotateLeftByOne(int[] nums) {
         int n = nums.length;
         int first = nums[0];
         
@@ -11,7 +11,7 @@ public class rotateArrayLeftbyOne5 {
 
         // Print rotated array
         for (int num : nums) {
-            return num;
+            System.out.print(num +" ");
         }
         
     }
