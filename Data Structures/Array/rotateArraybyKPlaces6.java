@@ -1,4 +1,4 @@
-public class rotateArraybyKPlaces {
+public class rotateArraybyKPlaces6 {
     public static void rotateArray(int[] nums, int k) {
         int n = nums.length;
         k = k % n;  // If k > n
