@@ -1,4 +1,4 @@
-public class LargestElementInArray {
+public class LargestElementInArray1 {
 
 // finding maximum number in an array: 
     

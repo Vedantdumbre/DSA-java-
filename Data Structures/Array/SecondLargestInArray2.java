@@ -1,4 +1,4 @@
-public class SecondLargestInArray {
+public class SecondLargestInArray2 {
     
 // finding the second largest in an array : easy😎😎
 

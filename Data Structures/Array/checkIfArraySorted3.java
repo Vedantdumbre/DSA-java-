@@ -1,9 +1,8 @@
-public class checkIfArraySorted {
+public class checkIfArraySorted3 {
     
 // check if an array is sorted:  
-    /*public static void main(String[] args) {
-        int[] arr = {2,3,4,3,2};
-        System.out.println(checkSort(arr));
+    public static void main(String[] args) {
+        System.out.println(checkSort(new int[]{1,2,3,4,5}));
     }
 
     static boolean checkSort(int[] arr){
@@ -15,11 +14,11 @@ public class checkIfArraySorted {
         }
         return true;
         
-    } */
+    } 
 
 // to check if an array is sorted and rotated:LEETCODE✨  
 
-        public static void main(String[] args) {
+       /* public static void main(String[] args) {
             int[] arr = {4,5,1,2};
             System.out.println(check(arr));
         }
@@ -39,6 +38,6 @@ public class checkIfArraySorted {
             else{
                 return false;
             }
-        }
+        }*/
 
 }
