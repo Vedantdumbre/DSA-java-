@@ -1,4 +1,4 @@
-public class NumberthatAppearsOnce {
+public class NumberthatAppearsOnce12 {
     public static int singleNumber(int[] nums) {
        
         int n = nums.length;
