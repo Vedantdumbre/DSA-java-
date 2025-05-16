@@ -2,7 +2,7 @@
     import java.util.HashSet;
     import java.util.Set;
 
-    public class FindtheUnion8 {
+    public class FindtheUnion9 {
         public static int[] unionArray(int[] nums1, int[] nums2) {
             Set<Integer> set = new HashSet<>();
             for (int num : nums1) set.add(num);
