@@ -1,27 +1,25 @@
 import java.util.Arrays;
+import java.util.HashMap;
 
-public class TwoSumProblem1 {  //EASY 😎😎✨
+public class TwoSumProblem1 {
     public static int[] twoSum(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length - 1; // Fixed this line
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        while (left < right) {
-            int sum = nums[left] + nums[right];
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
 
-            if (sum == target) {
-                return new int[]{nums[left], nums[right]};
-            } else if (sum < target) {
-                left++;
-            } else {
-                right--;
+            if (map.containsKey(complement)) {
+                return new int[]{map.get(complement), i};  // return original indices
             }
+
+            map.put(nums[i], i);  // value → index
         }
 
-        return new int[]{-1, -1}; 
+        return new int[]{-1, -1};  // No valid pair found
     }
 
     public static void main(String[] args) {
-        int[] result = twoSum(new int[]{2, 7, 11, 15}, 9);
-        System.out.println(Arrays.toString(result)); 
+        int[] result = twoSum(new int[]{1, 6, 2, 10, 3}, 7);
+        System.out.println(Arrays.toString(result)); // Example: [0, 1] (for 1 + 6 = 7)
     }
 }
