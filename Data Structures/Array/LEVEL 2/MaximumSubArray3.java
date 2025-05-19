@@ -1,4 +1,4 @@
-public class MaximumSubArray {
+public class MaximumSubArray3 {
     public static int maxSubArray(int[] nums) {
         int maxvalue = nums[0];
         int sum = nums[0];

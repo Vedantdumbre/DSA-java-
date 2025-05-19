@@ -1,4 +1,4 @@
-public class StockBuyAndSell {
+public class StockBuyAndSell4 {
     public static int stockBuySell(int[] arr, int n) {
        
         int maxProfit = 0;

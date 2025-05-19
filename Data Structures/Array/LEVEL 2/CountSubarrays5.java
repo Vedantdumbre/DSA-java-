@@ -1,4 +1,4 @@
-public class CountSubarrays {
+public class CountSubarrays5 {
     public static int subarraySum(int[] nums, int k) {
         int n = nums.length;
         int count = 0;
