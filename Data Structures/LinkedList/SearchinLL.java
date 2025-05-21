@@ -21,7 +21,7 @@ public class SearchinLL {
         head.next = new Node(10);
         head.next.next = new Node(15);
 
-        int key = 10;
+        int key = 12;
         if (search(head, key))
             System.out.println("Element found ");
         else
