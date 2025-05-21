@@ -1,18 +1,19 @@
-import java.util.Arrays;
+
 
 public class FindtheDuplicateNUmber {
     public static int findDuplicate(int[] nums) {
-        int n = nums.length;
-        Arrays.sort(nums);
-        for (int i = 0; i < n - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
-                return nums[i];
+       boolean[] vis = new boolean[nums.length];
+        for(int num : nums){
+            if(vis[num]){
+                return num;
             }
+            vis[num] = true;
         }
-        return 0;
+
+        return -1;
     }
     public static void main(String[] args) {
-       System.out.println(findDuplicate(new int[]{1,3,4,2,2})); 
+       System.out.println(findDuplicate(new int[]{3,1,3,4,2})); 
     }
 
 }
