@@ -1,4 +1,4 @@
-package BasicsofLL;
+
 public class SearchinLL {
       static class Node {
         int data;
