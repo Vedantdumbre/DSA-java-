@@ -33,13 +33,13 @@ public class DeleteHeadofLL {
         head.next.next.next = obj.new Node(40);
 
         System.out.print("Original List: ");
-        obj.printList(head);
+        printList(head);
 
         // Delete head
         head = obj.deleteHead(head);
 
         System.out.print("After Deleting Head: ");
-        obj.printList(head);
+        printList(head);
     }
         
         
