@@ -19,7 +19,7 @@ class ListNode {
 }
 
 public class CheckifALLisPalindrome {
-    public boolean isPalindrome(ListNode head) {
+    // public boolean isPalindrome(ListNode head) {
         
-    }
+    // }
 }
