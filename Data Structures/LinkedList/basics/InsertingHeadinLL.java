@@ -1,5 +1,3 @@
-
-
 class ListNode {
     int val;
     ListNode next;
@@ -51,7 +49,7 @@ public class InsertingHeadinLL {
         printList(head);
 
         // Insert at head
-        head = obj.insertAtHead(head, 5);
+        head = obj.insertAtHead(head, 4);
 
         System.out.print("After Inserting at Head: ");
         printList(head);
