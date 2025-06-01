@@ -28,8 +28,8 @@ public class StackUsingArray {
         stack.push(20);
         System.out.println("Top: " + stack.top());     // 20
         System.out.println("Pop: " + stack.pop());     // 20
-        System.out.println("Pop: " + stack.pop());     
-        System.out.println("Top: " + stack.top());     
-        System.out.println("Is Empty: " + stack.isEmpty()); 
+        System.out.println("Pop: " + stack.pop());     // 10
+        System.out.println("Top: " + stack.top());     // -1
+        System.out.println("Is Empty: " + stack.isEmpty()); //true 
     }
 }
