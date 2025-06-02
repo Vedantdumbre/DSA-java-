@@ -19,11 +19,11 @@ public class StackusingQueues {
     }
 
     public int pop() {
-      return q1.isEmpty() ? -1 : q2.remove();
+      return q1.isEmpty() ? -1 : q1.remove();
     }
 
     public int top() {
-        return q1.isEmpty() ? -1 : q2.peek();
+        return q1.isEmpty() ? -1 : q1.peek();
     }
 
     public boolean isEmpty() {
