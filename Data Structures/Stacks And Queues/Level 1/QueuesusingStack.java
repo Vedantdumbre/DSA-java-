@@ -3,8 +3,8 @@ import java.util.Stack;
 public class QueuesusingStack {
     private Stack<Integer> s1,s2;
      public QueuesusingStack() {
-        s1= new Stack<>();  // for taking inputs 
-        s2= new Stack<>();  // for giving outputs 
+        s1= new Stack<>();  // for taking inputs (primary)
+        s2= new Stack<>();  // for giving outputs (secondary)
     }
 
     public void push(int x) {
