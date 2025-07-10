@@ -24,6 +24,6 @@ public class LengthofLL {
         head.next = new Node(10);
         head.next.next = new Node(15);
 
-        System.out.println("Length of Linked List: " + getLength(head));
+        System.out.println("Length of Linked List: " + getLength(head)); 
     }
 }

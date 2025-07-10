@@ -22,10 +22,6 @@ public class SearchinLL {
         head.next = new Node(10);
         head.next.next = new Node(15);
 
-        int key = 5;
-        if (search(head, key))
-            System.out.println("Element found ");
-        else
-            System.out.println("Element not found ");
+        System.out.println(search(head, 10));
     }
 }

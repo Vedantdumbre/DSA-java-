@@ -1,5 +1,4 @@
- 
-public class TraversalinLL {
+ public class TraversalinLL {
 
     static class Node {
         int data;
