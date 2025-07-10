@@ -13,7 +13,7 @@ public class LengthofLL {
         int count = 0;
         Node temp = head;
         while (temp != null) {
-            count++;
+            count++; 
             temp = temp.next;
         }
         return count;

@@ -1,8 +1,8 @@
  public class TraversalinLL {
 
     static class Node {
-        int data;
-        Node next;
+        int data; // val
+        Node next; 
 
         Node(int data) {
             this.data = data;
@@ -11,7 +11,7 @@
     }
 
     public static void printList(Node head) {
-        Node temp = head;
+        Node temp = head; 
         while (temp != null) {
             System.out.print(temp.data + " -> ");
             temp = temp.next;
