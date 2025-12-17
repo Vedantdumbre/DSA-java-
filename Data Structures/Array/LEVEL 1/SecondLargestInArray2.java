@@ -3,7 +3,7 @@ public class SecondLargestInArray2 {
 // finding the second largest in an array : easy😎😎
 
     public static void main(String[] args) {
-        int[] arr = {2,3,4,86,78};
+        int[] arr = {10,10,10,10};
         System.out.println(smax(arr));
     }
 

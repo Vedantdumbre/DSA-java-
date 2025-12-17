@@ -2,15 +2,15 @@
 
 public class basics7 {
 // Running a simple method.
-    /*static void myClass(String name){
+    static void myClass(String name){
         System.out.println("This is my Method:" + name); // how to create a simple method
     }
 
     public static void main(String[] args) {
         myClass("joe"); //how to print a method 
-    }  */
+    }  
 
-// A exmple of method overloading
+//  A exmple of method overloading
     /*static int add1(int a,int b ){
       return a+b;
     }
