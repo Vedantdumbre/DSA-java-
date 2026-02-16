@@ -50,11 +50,30 @@ public class basics4 {
                 }
             } */
             
-            int 
-            
-            
+            /*int temp = 3;
+            if(temp > 30){
+                System.out.println("It's a hot day!");
+                System.out.println("Drink plenty of water.");
             }
+            else if(temp >= 20)
+                System.out.println("It's a nice day!");
+
+            else 
+                System.out.println("It's cold!");
+            } */
+            
+
+            // example of Simplified if statement
+            int income = 120_000;
+            boolean hasHighIncome = (income > 100_000) ;// adding this to simplify the code
+            System.out.println(hasHighIncome);
+
+            // Another example but, using ternary operator to simplify the code more:
+            String className = income > 100_000 ? "First" : "Economy"; // this is called ternary operator in if statement
+            System.out.println(className);
+
         }
+    }
 
 
     
