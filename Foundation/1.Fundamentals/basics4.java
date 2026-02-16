@@ -30,7 +30,7 @@ public class basics4 {
         else 
             System.out.println("30%");*/
 
-            class Solution {
+            /*class Solution {
                 static void studentGrade(int marks) {
                     if (marks >= 90) {
                         System.out.println("Grade A");
@@ -48,9 +48,9 @@ public class basics4 {
                 public static void main(String[] args) {
                     studentGrade(69);
                 }
-            }
+            } */
             
-                
+            int 
             
             
             }
