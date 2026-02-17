@@ -72,6 +72,8 @@ public class basics4 {
             String className = income > 100_000 ? "First" : "Economy"; // this is called ternary operator in if statement
             System.out.println(className);
 
+            
+
         }
     }
 
