@@ -17,7 +17,7 @@ public class FizzBuzz {
             System.out.println("Buzz");
         else
             System.out.println(num);
-
+        sc.close();
 
     }
 }
