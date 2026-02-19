@@ -149,7 +149,7 @@ public class basics5 {
          */
 
         // a full pyramid :
-        int n = 4;
+        /*int n = 4;
         for (int a = 0; a <= n; a++) {
             for (int space = 0; space < n - a; space++) {
                 System.out.print(" ");
@@ -158,6 +158,10 @@ public class basics5 {
                 System.out.print("*");
             }
             System.out.println();
-        }
+        } */
+
+
+        // for loop in java :
+        
     }
 }
