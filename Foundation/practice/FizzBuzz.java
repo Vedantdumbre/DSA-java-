@@ -9,7 +9,7 @@ public class FizzBuzz {
         int num = sc.nextInt();
 
         //Performing logic 
-        if(num % 5==0 && num % 3==0)
+        if(num % 5==0 && num % 3==0) // adding this first bcoz of the constraints 
             System.out.println("FizzBuzz");
         else if (num % 5 ==0 )
             System.out.println("Fizz");
