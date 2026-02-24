@@ -4,7 +4,8 @@ public class GCD {
         }
         public static int gcd(int n1, int n2) {
 
-            while(n2!=0){    //Euclidean Algorithm:  for more info ask chatgpt for simplification.
+            while(n2!=0){    
+                //This is swapping of two numbers without third variable 
                 int temp= n2;
                 n2 = n1 % n2;
                 n1=temp;
