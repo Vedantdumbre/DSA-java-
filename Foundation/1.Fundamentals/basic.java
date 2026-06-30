@@ -12,7 +12,7 @@ public class basic {
         int num1 = 4;
         int num2 = 6;
         float sum = (float) num1 / num2;
-        //System.out.println(sum);
+        System.out.println(sum);
         String name = "Ved";
         System.out.println(name);
     }

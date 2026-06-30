@@ -10,6 +10,11 @@ public class basics1 {
         int sum = a * b; 
         System.out.println(sum%100);
         s.close();   // Used to close the scanner. IMP
+
+        // Trying ternary OP
+        int trop = (a>b) ? a : b;
+        System.out.println(trop);
+
     } 
 }
 

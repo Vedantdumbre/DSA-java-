@@ -27,12 +27,28 @@ public class basics2 {
         //     System.out.println("You Failed");
         // }
 
-// getting a number from the user so as it will be added by 8 and getting decrypted before displaying
+// Chatgpt question1:
 
-        Scanner S = new Scanner(System.in);
-        int a = S.nextInt();
+        /*Scanner S = new Scanner(System.in);
+        int num = S.nextInt();
         S.close();
-        int sum = a + 8;
-        System.out.println(--sum); //decrypting it before priting the o/p.
+                // Nested ternary op.
+        String result = (num > 0)? "Positive"
+                        :(num < 0)? "Negative"
+                        : "Zero";
+
+                        System.out.println(result); */
+
+
+        
+        int a = 15;
+        int b = 8;
+        int c = 20;
+                // Nested ternary op.
+        int result = (a>b && a>c)? a
+                        :(b>a && b>c)? b
+                        : c;
+
+                        System.out.println(result);
     }
 }

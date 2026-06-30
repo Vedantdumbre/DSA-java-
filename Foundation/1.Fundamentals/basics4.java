@@ -1,20 +1,23 @@
 // CONDITIONALS IN JAVA
+
+import java.util.Scanner;
+
 public class basics4 {
     public static void main(String[] args) {
 
 // here is calculating the result of the student using operators and conditionals:
 
-        //  int math = 78;
-        //  int science = 80; 
-        //  int geography = 90; 
-        //  int total = math + science + geography;
+          int math = 78;
+          int science = 80; 
+          int geography = 90; 
+          int total = math + science + geography;
 
-        //  if (total >= 40 && math >= 33 && science >= 33 && geography >= 33){
-        //     System.out.println("You are Pass!");
-        //  }
-        //  else{
-        //     System.out.println("You are Failed");
-        // }
+          if (total >= 40 && math >= 33 && science >= 33 && geography >= 33){
+            System.out.println("You are Pass!");
+          }
+          else{
+             System.out.println("You are Failed");
+         }
 
 // tax payable for the employee :
 
@@ -64,13 +67,32 @@ public class basics4 {
             
 
             // example of Simplified if statement
-            int income = 120_000;
+            /*int income = 120_000;
             boolean hasHighIncome = (income > 100_000) ;// adding this to simplify the code
             System.out.println(hasHighIncome);
 
             // Another example but, using ternary operator to simplify the code more:
             String className = income > 100_000 ? "First" : "Economy"; // this is called ternary operator in if statement
+            System.out.println(className); */
+
+
+
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Mention your Salary");
+            int salary = sc.nextInt();
+            sc.close();
+
+            boolean hasHighSalary = (salary >= 100_000); 
+            System.out.println(hasHighSalary);
+
+            String className = hasHighSalary == true ? "FirstClass":"EconomyClass" ;
             System.out.println(className);
+
+
+
+
+
+
 
             
 
