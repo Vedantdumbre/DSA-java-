@@ -2,6 +2,19 @@
 
 public class basics5 {
     public static void main(String[] args) {
+        // Printing numbers from 1-10
+         /* // for loop 
+          for(int i=1; i<=10; i++){
+            System.out.print(i + " ");
+          }
+
+          //while loop 
+          int i=1;
+          while(i<=10){
+            System.out.println(i);
+            ++i;
+          } */
+
         // printing nunbers from 111 to 211 using while loop :
         /*
          * int i = 111;
@@ -162,8 +175,27 @@ public class basics5 {
 
 
         // for loop in java :
-        for(int i =0; i< 10;i++){
+        /*for(int i =0; i< 10;i++){
             System.out.println("Hello World " + i);
+        } */
+
+
+        //Printing each digit on a new line 
+        int num = 987654;
+        while (num != 0) {
+            int lastDigit = num % 10;
+            System.out.println(lastDigit);
+            num = num /10;
+        }
+
+
+
+
+        // Print all numbers from 1 to 100 that are divisible by 3 but not divisible by 5. (i%3==0) && (i%5!=0)
+        for(int i =3; i<=100; i++){
+            if ((i%3==0) && (i%5!=0)) {
+                System.out.print(i + " ");
+            }    
         }
     }
 }
